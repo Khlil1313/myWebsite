@@ -1,0 +1,136 @@
+html {
+    font-family: "helvetica neue", "Arial", sans-serif;
+}
+body {
+    margin: 0;
+} 
+p{
+    color:#5d6660;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "helvetica neue", "Arial", sans-serif;
+}
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+#header-container {
+    width: 80%;
+    margin: auto;
+}
+.column-3 {
+    width: 33%;
+    float: left;
+}   
+.logo {
+    padding-top: 15px;
+    width: 30%;
+    height: 10%;
+}
+.menu {
+    margin-top: 32px;
+}
+a:hover{
+    color: orange;
+}
+a {
+    color:gray;
+    text-decoration:none;
+}
+.menu li{
+    list-style-type: none;
+    display: inline;
+    font-size: .85em;
+    color: #8e8e8e;
+}
+#top-main-section{
+    background-image: url(../images/family.png);
+    background-size: cover;
+    height: 750px;
+
+}
+.contact-us {
+    background-color: #6dc77a;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 26px;
+    margin-top: 20px;
+    display:inline-block;
+    float: right;
+}
+.content{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    min-height: 15px;
+
+}
+.content p {
+    text-align: center;
+    color: gray;
+    font-weight: 400;
+    font-size: 2em;
+}
+#top-main-section-contents {
+    text-align: center;
+    color: honeydew;
+    padding-top: 100px;
+    
+}
+#amazing {
+    background-color: green;
+}
+#top-main-section-contents p{
+    font-size: .8em;
+    color:mistyrose;
+
+
+}
+.main-section-contents{
+    margin:auto;
+    width: 80%;
+    text-align: center;
+}
+.main-section-contents .column-3 img {
+    width: 350px;
+    height: 350px;
+}
+.main-section-contents .column-3 p{
+    font-size: .9em;
+    letter-spacing: 1px;
+}
+.main-section-contents .column-3{
+    padding: 10px;
+    width: 30%;
+}
+.wrapper h1{
+    text-align: center;
+    font-size: 30px;
+    color: green;
+
+}
+.image-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.image {
+    padding: 0px 20px 20px;
+}
+img:hover{
+    opacity: .5;
+    transition: .9s;
+
+}
+.contact{
+    text-align: center;
+    color:blueviolet;
+}
+.contact p{
+    text-align: center;
+    color: blueviolet;
+}
